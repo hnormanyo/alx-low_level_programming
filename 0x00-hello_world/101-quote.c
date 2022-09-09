@@ -2,10 +2,10 @@
 #include <unistd.h>
 
 /**
-*main - prints to string
-*Description: Prints "and that piece of art is useful.." 
-*Return: (1) successful
-*/
+ *main - prints to string
+ *Description: Prints "and that piece of art is useful.." 
+ *Return: (1) successful
+ */
 
 int main(void)
 {
