@@ -3,7 +3,7 @@
 
 /**
 *prints to string
-*
+*Description: Prints "and that piece of art is useful.." 
 *Return: (1) successful
 */
 
