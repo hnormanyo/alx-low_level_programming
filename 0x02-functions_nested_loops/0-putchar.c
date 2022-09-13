@@ -1,10 +1,15 @@
 #include "main.h"
 /**
- * main-prints putchar as a message
+ * main - Entry point
+ * Description: prints _putchar followed by new line
+ *
  * Returns: always 0 (success)
  */
-int main(void)
+
+_putchar(void)
+
 {
+
 _putchar('_');
 _putchar('p');
 _putchar('u');
