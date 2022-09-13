@@ -1,4 +1,4 @@
-# include "main"
+# include "main.h"
 /**
  * _isalpha - a function that checks for alphabetic characte
  * @c: the integer value it receives
