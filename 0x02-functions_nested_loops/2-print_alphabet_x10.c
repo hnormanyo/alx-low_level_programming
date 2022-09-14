@@ -1,24 +1,24 @@
 # include "main.h"
 
 /**
- * print_alphabet - fuction to print 10x the alphabets
+ * print_alphabet_x10 - fuction to print 10x the alphabets
  *
  * Return: Always return 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char c = 'a';
-	int i = 0;
 
-	while (i < 10)
+	char i, j;
+
+	for (i = 0; i <= 9; i++)
+
 	{
-		for (c = 'a' ;c = 'z' ; c++);
+		for (j = 'a'; j <= 'z'; j++)
 		{
-		_putchar(c);
+			_putchar(j);
 		}
 		_putchar('\n');
 
-		i++;
 	}
 }
 
