@@ -10,12 +10,15 @@ void print_most_numbers(void)
 {
 	int a = 0;
 
-	while (a <= 9)
+	for (a = 48; a < 58; a++)
 	{
-		if (a != 2 && a != 4)
+		if (a != 50)
 		{
-			_putchar(a + '0');
+			if (c != 52)
+			{
+				_putchar(c);
+			}
 		}
-		a++;
 	}
-}	_putchar('\n');
+	_putchar('\n');
+}
