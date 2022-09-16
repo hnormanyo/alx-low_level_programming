@@ -6,22 +6,20 @@ include "main.h"
  */
 void print_diagonal(int n)
 {
-	if (n <= 0)
-	{
-		_putchar('\n');
-	} else
-		int i, j;
+	nt i = 0, ii;
 
-		for (i = 0; i < n; i++)
+	while (i < n && n > 0)
+	{
+		ii = 0;
+		while (ii < i)
 		{
-			for (j = 0; j < n; j++)
-			{
-																														if (j == i)
-																															_putchar('\\');
-																														else if (j < i)
-																															_putchar(' ');
-			}		
-		     																											_putchar('\n');
-		}																								
-	}									
+			_putchar(' ');
+			ii++;
+		}
+		_putchar('\\');
+		_putchar('\n');
+		i++;
+	}
+	if (i == 0)
+		_putchar('\n');
 }
