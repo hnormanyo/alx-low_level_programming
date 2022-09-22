@@ -1,5 +1,3 @@
-es(23 sloc)  322 Bytes
-
 #include "main.h"
 /**
  * leet - encode into 1337speak
@@ -24,3 +22,4 @@ char *leet(char *n)
 	}
 	return (n);
 }
+
