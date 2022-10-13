@@ -9,17 +9,17 @@
  * Return: If n == 0 - 0.
  *         Otherwise - the sum of all parameters.
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list ap;
-	unsigned int i, sum = 0;
+va_list list;
+unsigned int i, sum = 0;
 
-	va_start(ap, n);
+va_start(list, n);
+if (n != 0)
+	for (i = 0; i < n; sum += va_arg(list, unsigned int), i++)
+	;
+va_end(list);
 
-	for (i = 0; i < n; i++)
-		sum += va_arg(ap, int);
-
-	va_end(ap);
-
-	return (sum);
+return (sum);
 }
